@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<main class="px-3">
+
+    <h1>{{ .Site.Title }}</h1>
+    {{ if .Site.Params.title }}
+        <p>{{ .Site.Params.title }}</p>
+        {{ else }}
+        <p>{{ .Title }}</p>
+    {{ end }}
+    <p class="lead">{{ .Site.Params.description }}</p>
+    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+    <p class="lead">
+        <a href="#" class="btn btn-secondary btn-lg fw-bold border-white text-secondary-emphasis">Learn more</a>
+    </p>
+
+      <article id="content">
+        {{ .Content }}
+      </article>
+    {{ range first 10 .Data.Pages }}
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    {{ end }}
+
+</main>
+
+{{ end }}

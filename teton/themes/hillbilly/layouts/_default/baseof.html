@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+    {{ partial "head.html" . }}
+
+    {{ if (eq 1 1) }} 
+    {{ $asset := resources.Get "images/Western-Pattern.png" }}
+    {{ $img := $asset.Fit "2000x1125" }}
+    <body style="background: url('{{ $img.RelPermalink }}') repeat center center fixed;"
+          class="d-flex h-100 text-center">
+        {{ else }}
+        <body class="d-flex h-100 text-center">
+    {{ end }}
+    {{ partial "theme.html" . }}
+
+            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+                {{ partial "header.html" . }}
+                {{ block "main" . }} {{ end }}
+                {{ partial "footer.html" . }}
+
+            </div>
+
+
+            {{ $built := resources.Get "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" | js.Build }}
+            <script src="{{ $built.RelPermalink }}" defer></script>
+            {{ $colormode := resources.Get "js/color-modes.js" | js.Build }}
+            <script src="{{ $colormode.RelPermalink }}" defer></script>
+
+        </body>
+</html>

@@ -1,0 +1,27 @@
+// Variable overrides first
+// Then import Bootstrap
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      "mrs-eaves";
+$font-family-monospace:       "anonymous-pro";
+$headings-font-family:        "gin" !default;
+$white: #f7edbb;
+$theme-colors: (
+    "light":      #fbe8d0,
+    "dark":       #3d1e00,
+    "primary":    #efa506,
+    "secondary":  #0386d8,
+    "info":       #99d171,
+    "accent1":    #a2b26a,
+    "accent2":    #877243,
+    "accent3":    #d24141,
+    "success":    #5abe02,
+    "warning":    #ffc875,
+    "danger":     #fe0163,
+);
+@import "cover.scss";
+@import "fonts.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// stylelint-enable value-keyword-case
+$font-family-base:            var(--#{$prefix}font-sans-serif);
+$font-family-code:            var(--#{$prefix}font-monospace);
