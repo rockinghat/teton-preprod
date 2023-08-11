@@ -1,8 +1,17 @@
-{{ define "title" }}
-  <!-- This will override the default value set in baseof.html; i.e., "{{ .Site.Title }}" in the original example-->
-  {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+<div class="row">
+    <div class="card mb-3">
+        {{ with .Resources.GetMatch "tools.jpg" }}
+          <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}" alt="" class="card-img-top">
+        {{ end }}
+        <div class="card-body">
+            <h5 class="card-title">{{ .Title }}</h5>
+            <p class="card-text" style="text-align: justify; text-justify: inter-word;">
+            <p>{{ .Description }}</p>
+            <article>{{ .Content }}</article>
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
 {{ end }}

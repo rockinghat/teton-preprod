@@ -1,6 +1,6 @@
-baseURL = 'https://tetonpool.com/'
+baseURL = 'https://rockinghat.com/'
 languageCode = 'en-us'
-title = 'TETON Pool'
+title = 'Hillbilly IT'
 theme = 'hillbilly'
 
 [params]
