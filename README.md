@@ -1,2 +1,1 @@
-# tetonpool
-TETON Pool Cardano Stake Pool
+# TETON Preprod Testnet Pool
