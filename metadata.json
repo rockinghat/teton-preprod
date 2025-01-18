@@ -2,5 +2,6 @@
   "name": "TETON Preprod",
   "description": "TETON Pool's Reprod testnet.",
   "ticker": "TETON",
-  "homepage": "https://preprod.tetonpool.com"
+  "homepage": "https://preprod.tetonpool.com",
+  "extended": "https://bit.ly/3SvgaR2"
   }

@@ -1,0 +1,43 @@
+{
+    "info": {
+        "url_png_icon_64x64": "http://bit.ly/3lD4nVB",
+        "url_png_logo": "http://bit.ly/3LMQE9l",
+        "location": "Wyoming, USA",
+        "social": {
+            "twitter_handle": "https://twitter.com/rockinghatllc",
+            "telegram_handle": "https://t.me/TetonPool",
+            "facebook_handle": "",
+            "youtube_handle": "https://www.youtube.com/c/HeathRobertson",
+            "twitch_handle": "",
+            "discord_handle": "heathteton",
+            "github_handle": "https://github.com/rockinghat"
+        },
+        "company": {
+            "name": "Rocking Hat LLC",
+            "addr": "PO Box 301",
+            "city": "Bondurant, Wyoming 82922",
+            "country": "USA",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "Web 3.0 - The Value, Governance, & Digital Asset Web",
+            "server": "Ubuntu 22.04.1 LTS - Bandwidth 500 Mbps",
+            "company": "Rocking Hat LLC"
+        },
+        "rss": ""
+    },
+    "my-pool-ids": {
+        "0": "a2a7050e1ef0618dc76bdcc9bbba0c01f88fe1b88e19cc3218acacd8"
+    },
+    "when-satured-then-recommend": {
+        "0": "",
+        "1": ""
+    },
+    "telegram-admin-handle": {
+        "0": "https://t.me/RockingHat"
+    },
+    "ada-pools":{
+        "id": "f73cccbf48d021881ee473623b007928"
+    }
+}
