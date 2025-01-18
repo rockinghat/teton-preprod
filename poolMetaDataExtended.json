@@ -4,13 +4,13 @@
         "url_png_logo": "http://bit.ly/3LMQE9l",
         "location": "Wyoming, USA",
         "social": {
-            "twitter_handle": "https://twitter.com/rockinghatllc",
-            "telegram_handle": "https://t.me/TetonPool",
+            "twitter_handle": "rockinghatllc",
+            "telegram_handle": "TetonPool",
             "facebook_handle": "",
-            "youtube_handle": "https://www.youtube.com/c/HeathRobertson",
+            "youtube_handle": "HeathRobertson",
             "twitch_handle": "",
             "discord_handle": "heathteton",
-            "github_handle": "https://github.com/rockinghat"
+            "github_handle": "rockinghat"
         },
         "company": {
             "name": "Rocking Hat LLC",
@@ -35,7 +35,7 @@
         "1": ""
     },
     "telegram-admin-handle": {
-        "0": "https://t.me/RockingHat"
+        "0": "RockingHat"
     },
     "ada-pools":{
         "id": "f73cccbf48d021881ee473623b007928"
